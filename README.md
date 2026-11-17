@@ -11,8 +11,7 @@ Please use the following the most updated software to tweak, debloat and customi
 2. Chris Titus Tech winutil: [https://github.com/christitustech/winutil](https://github.com/christitustech/winutil)
 
 Based on PowerShell Scripts from farag2 Sophia Script for Windows GitHub PowerShell Scripts (2026): 
-[https://github.com/farag2/Sophia-Script-for-Windows](https://github.com/farag2/Sophia-Script-for-Windows)
-### Behind 1 or 2 releases from farag2 so this is experimental software.
+[https://github.com/farag2/Sophia-Script-for-Windows](https://github.com/farag2/Sophia-Script-for-Windows) but behind 1 or 2 releases from farag2 so this is experimental software.
 
 
 # Alternatives
