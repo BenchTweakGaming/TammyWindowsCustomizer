@@ -1,6 +1,6 @@
 # Tammy Windows Customizer v1.0.0
 
-This standalone app is a continuation of the Sophia Script Wrapper that was discontinued in Oct 20, 2026: [https://github.com/BenchTweakGaming/SophiaScriptWrapper](https://github.com/BenchTweakGaming/SophiaScriptWrapper)
+This standalone app is a continuation of the [Sophia Script Wrapper](https://github.com/farag2/Sophia-Script-for-Windows) that was discontinued in Oct 20, 2026: [https://github.com/BenchTweakGaming/SophiaScriptWrapper](https://github.com/BenchTweakGaming/SophiaScriptWrapper)
 
 ## *** BETA software. Use at your own risk. ***
 
