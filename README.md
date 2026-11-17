@@ -2,6 +2,8 @@
 
 This standalone app is a continuation of the [Sophia Script for Windows](https://github.com/farag2/Sophia-Script-for-Windows) Wrapper that was discontinued in Oct 20, 2026: [https://github.com/BenchTweakGaming/SophiaScriptWrapper](https://github.com/BenchTweakGaming/SophiaScriptWrapper)
 
+Website: [https://benchtweakgaming.com/tammy-windows-customizer/](https://benchtweakgaming.com/tammy-windows-customizer/)
+
 ## *** BETA software. Use at your own risk. ***
 
 Remade as a standalone usage for Windows 10 and 11 normal installs. Does not support ARM, LTSC versions.
