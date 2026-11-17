@@ -1,0 +1,107 @@
+﻿<Application x:Class="TammyWindowsCustomizer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TammyWindowsCustomizer"
+             xmlns:ui="http://schemas.modernwpf.com/2019"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        
+        <ResourceDictionary>
+            <Brush x:Key="OneDriveColor">#FF2A6B9F</Brush>
+            <Brush x:Key="WSLColor">#FF2A6B9F</Brush>
+            <Brush x:Key="UWPColor">#FF2A6B9F</Brush>
+            <Brush x:Key="GamingColor">#FF2A6B9F</Brush>
+            <Brush x:Key="OneDriveColorText">#FF2A6B9F</Brush>
+            <Brush x:Key="WSLColorText">#FF2A6B9F</Brush>
+            <Brush x:Key="UWPColorText">#FF2A6B9F</Brush>
+            <Brush x:Key="GamingColorText">#FF2A6B9F</Brush>
+            <ResourceDictionary.MergedDictionaries>
+                <ui:ThemeResources >
+                    <ui:ThemeResources.ThemeDictionaries>
+                        <ResourceDictionary x:Key="Light">
+                            <ResourceDictionary.MergedDictionaries>
+                                <ui:ColorPaletteResources
+                                    TargetTheme="Light"
+                                    Accent="#f29ad8"
+                                    AltHigh="#d690ba"
+                                    AltLow="#FF000000"
+                                    AltMedium="#d690ba"
+                                    AltMediumHigh="#FF000000"
+                                    AltMediumLow="#d690ba"
+                                    BaseHigh="#FFFFFFFF"
+                                    BaseLow="#04253d"
+                                    BaseMedium="#FF999999"
+                                    BaseMediumHigh="#FFf29ad8"
+                                    BaseMediumLow="#FFee71c3"
+                                    ChromeAltLow="#FFf29ad8"
+                                    ChromeBlackHigh="#FF000000"
+                                    ChromeBlackLow="#FFf29ad8"
+                                    ChromeBlackMedium="#FF000000"
+                                    ChromeBlackMediumLow="#FF000000"
+                                    ChromeDisabledHigh="#FF333333"
+                                    ChromeDisabledLow="#FF999999"
+                                    ChromeGray="#f29ad8"
+                                    ChromeHigh="#e305ad"
+                                    ChromeLow="#FFf039b1"
+                                    ChromeMedium="#013158"
+                                    ChromeMediumLow="#f658b8"
+                                    ChromeWhite="#FFFFFFFF"
+                                    ListLow="#e305ad"
+                                    ListMedium="#e305ad" />
+                                <ResourceDictionary>
+                                    <Color x:Key="SystemChromeAltMediumHighColor">#CCe305ad</Color>
+                                    <Color x:Key="SystemChromeAltHighColor">#FFe305ad</Color>
+                                    <Color x:Key="SystemRevealListLowColor">#FF1f1f1f</Color>
+                                    <Color x:Key="SystemRevealListMediumColor">#FF333333</Color>
+                                    <Color x:Key="RegionColor">#FFe305ad</Color>
+                                    <SolidColorBrush x:Key="RegionBrush" Color="{StaticResource RegionColor}" />
+                                </ResourceDictionary>
+                            </ResourceDictionary.MergedDictionaries>
+                        </ResourceDictionary>
+                        <ResourceDictionary x:Key="Dark">
+                            <ResourceDictionary.MergedDictionaries>
+                                <ui:ColorPaletteResources
+                                    TargetTheme="Dark"
+                                    Accent="#0775cd"
+                                    AltHigh="#003258"
+                                    AltLow="#FF000000"
+                                    AltMedium="#003258"
+                                    AltMediumHigh="#FF000000"
+                                    AltMediumLow="#003258"
+                                    BaseHigh="#FFFFFFFF"
+                                    BaseLow="#04253d"
+                                    BaseMedium="#FF999999"
+                                    BaseMediumHigh="#FFA5D0EC"
+                                    BaseMediumLow="#FF5E9DC6"
+                                    ChromeAltLow="#FFA5D0EC"
+                                    ChromeBlackHigh="#FF000000"
+                                    ChromeBlackLow="#FFA5D0EC"
+                                    ChromeBlackMedium="#FF000000"
+                                    ChromeBlackMediumLow="#FF000000"
+                                    ChromeDisabledHigh="#FF333333"
+                                    ChromeDisabledLow="#FF999999"
+                                    ChromeGray="#57788d"
+                                    ChromeHigh="#0778cd"
+                                    ChromeLow="#FF093B73"
+                                    ChromeMedium="#013158"
+                                    ChromeMediumLow="#205e8c"
+                                    ChromeWhite="#FFFFFFFF"
+                                    ListLow="#114366"
+                                    ListMedium="#114366" />
+                                <ResourceDictionary>
+                                    <Color x:Key="SystemChromeAltMediumHighColor">#CC0D2644</Color>
+                                    <Color x:Key="SystemChromeAltHighColor">#FF0D2644</Color>
+                                    <Color x:Key="SystemRevealListLowColor">#FF1f1f1f</Color>
+                                    <Color x:Key="SystemRevealListMediumColor">#FF333333</Color>
+                                    <Color x:Key="RegionColor">#FF0D2644</Color>
+                                    <SolidColorBrush x:Key="RegionBrush" Color="{StaticResource RegionColor}" />
+                                </ResourceDictionary>
+                            </ResourceDictionary.MergedDictionaries>
+                        </ResourceDictionary>
+                    </ui:ThemeResources.ThemeDictionaries>
+                </ui:ThemeResources>
+                <ui:XamlControlsResources />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
